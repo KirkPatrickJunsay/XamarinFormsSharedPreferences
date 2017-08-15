@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using XamarinFormsSharedPref.UWP;
 
-[assembly:Xamarin.Forms.Dependency(typeof(PreferenceService))]
 namespace XamarinFormsSharedPref.UWP
 {
     public class PreferenceService : IPreferences

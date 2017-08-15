@@ -20,8 +20,9 @@ namespace XamarinFormsSharedPref.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-
-            Xamarin.Forms.DependencyService.Register<PreferenceService>();
+            
+            //Remove the registration because the Preference Service has already the Register attribute
+            //Xamarin.Forms.DependencyService.Register<PreferenceService>();
 
             LoadApplication(new App());
         }

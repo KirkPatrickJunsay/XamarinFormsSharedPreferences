@@ -9,7 +9,6 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <Entry x:Name="entryBackColor" Placeholder="Enter Back Color" Grid.Row="0"/>
