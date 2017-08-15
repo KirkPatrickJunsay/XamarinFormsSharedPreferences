@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsSharedPref"
+             x:Class="XamarinFormsSharedPref.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Entry x:Name="entryBackColor" Placeholder="Enter Back Color" Grid.Row="0"/>
+        <Button x:Name="btnAdd" Grid.Row="1" Text="ADD" Clicked="btnAdd_Clicked"/>
+        <Button x:Name="btnRefresh" Grid.Row="2" Text="REFRESH" Clicked="btnRefresh_Clicked"/>
+
+    </Grid>
+
+</ContentPage>
